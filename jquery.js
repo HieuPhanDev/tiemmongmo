@@ -7,7 +7,7 @@ $(document).ready(function () {
         placeholder: "Tài Khoản",
     });
     $(".contact-form input:last").attr({
-        type: "text",
+        type: "password",
         placeholder: "Mật Khẩu",
     });
     $(".contact-form button").text("Đăng Nhập");
@@ -46,7 +46,7 @@ $(document).ready(function () {
         color: "#333",
         "margin-bottom": "3px",
     });
-    $(".contact-form input[type='text']").css({
+    $(".contact-form input").css({
         width: "100%",
         padding: "10px",
         "margin-bottom": "10px",
