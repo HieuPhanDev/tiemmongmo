@@ -6,21 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiệm Mộng Mơ</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato&family=Open+Sans:wght@600&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato&family=Open+Sans:wght@600&family=Satisfy&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
     <div class="container">
-        <h1></h1>
-        <img>
-        <div class="intro">
+        <div class="title">
+            <h1 class="auto-type"></h1>
         </div>
-        <div class="contact-form">
-            <input>
-            <input>
-            <button></button>
+        <div class="wrap">
+            <div class="grow">
+                <img>
+            </div>
+            <div class="intro">
+            </div>
+            <div class="contact-form">
+                <div class="user-box">
+                    <input>
+                </div>
+                <div class="user-box">
+                    <input>
+                </div>
+                <button></button>
+            </div>
         </div>
+
     </div>
     <script src="jquery.js">
+    </script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Chiếc tiệm mộng mơ", "Nơi thỏa mãn đam mê", "Sống hết mình với tuổi trẻ"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+            showCursor: false
+        });
     </script>
 </body>
 
